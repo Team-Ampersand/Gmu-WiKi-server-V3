@@ -18,10 +18,10 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
       ddl-auto: update
-    show-sql: ${sql.show}
+    show-sql: true
     properties:
       hibernate:
-        format_sql: ${sql.format}
+        format_sql: true
     open-in-view: false
 
   jackson:
